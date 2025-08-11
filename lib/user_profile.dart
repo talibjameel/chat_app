@@ -17,10 +17,10 @@ class _UserProfileState extends State<UserProfile> {
   bool _isLoading = true;
 
   // Define color scheme
-  final Color _primaryColor = const Color(0xFF2A9D8F); // Teal
-  final Color _secondaryColor = const Color(0xFF264653); // Navy
-  final Color _backgroundColor = const Color(0xFFF4F4F4); // Light background
-  final Color _textColor = const Color(0xFF1D3557); // Dark blue-grey
+  // final Color _primaryColor = const Color(0xFF2A9D8F);
+  final Color _secondaryColor = const Color(0xFF264653);
+  final Color _backgroundColor = const Color(0xFFF4F4F4);
+  final Color _textColor = const Color(0xFF1D3557);
 
   @override
   void initState() {

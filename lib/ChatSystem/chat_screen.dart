@@ -146,8 +146,8 @@ class _ChatScreenState extends State<ChatScreen> {
                                 horizontal: 14, vertical: 10),
                             decoration: BoxDecoration(
                               color: isMe
-                                  ? purple.withOpacity(0.9)
-                                  : teal.withOpacity(0.9),
+                                  ? purple.withValues(alpha: 0.9)
+                                  : teal.withValues(alpha:0.9),
                               borderRadius: BorderRadius.only(
                                 topLeft: const Radius.circular(16),
                                 topRight: const Radius.circular(16),

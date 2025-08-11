@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:intl/intl.dart';
 import '../ChatSystem/chat_room.dart';
-import '../main.dart';
 import 'auth_service.dart';
 
 class SignUpScreen extends StatefulWidget {
